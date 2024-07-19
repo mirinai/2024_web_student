@@ -1,13 +1,11 @@
 import { Outlet } from "react-router-dom";
+import SideNav from "../organism/SideNav";
 
 const Layout = () => {
   return (
-    <div>
-      <head></head>
-      <main>
-        <Outlet />
-      </main>
-      <footer></footer>
+    <div className="w-full h-full flex">
+      <SideNav />
+      <Outlet />
     </div>
   );
 };

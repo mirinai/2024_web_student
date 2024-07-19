@@ -1,11 +1,11 @@
-import Layout from "./components/layout/Layout";
+import Routing from "./components/layout/Routing";
 
-function App() {
+const App = () => {
   return (
-    <div className="p-5">
-      <Layout />
+    <div className="w-screen h-screen font-SCore">
+      <Routing />
     </div>
   );
-}
+};
 
 export default App;
